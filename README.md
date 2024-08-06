@@ -1,30 +1,11 @@
-# Rust源码剖析
+# Rust 学习
 
-[English](https://github.com/awesome-kusion/rust-code-book) [简体中文](https://github.com/awesome-kusion/rust-code-book-zh)
-
-引个流先：
-
-- *KusionStack一站式可编程配置技术栈(Go实现): <https://github.com/KusionStack/kusion>*
-- *KusionStack内置的KCL配置语言(Rust实现): <https://github.com/KusionStack/KCLVM>*
-
-## 序言
-
-写这个电子书是因为一开始在做 KusionStack、KCLVM 项目中编译器研发的相关工作，本着学习优秀编译器的设计想法，开始学习 Rustc 的源码。这个过程中记录了一些笔记和文档，在[柴大](https://github.com/chai2010)的建议下整理成文章正式发在了公众号上。没想到很受欢迎，于是决定坚持写下去。接下来会去写一些 Rustc 中的源码实现、标准库、工具，以及一些 Rust 的开源项目。
-
-KCLVM 是我们在 Kusion 这个项目中使用 Rust 开发的语言编译器，书中的部分内容在这个项目中也有对应的应用。对云原生生态、技术感兴趣的同学可以了解下  &#x1F449; [KusionStack](https://github.com/KusionStack/kusion) 这个项目；对 Rust、编程语言、编译器感兴趣的同学可以看下 &#x1F449; [KCLVM](https://github.com/KusionStack/KCLVM)。
-
-最后，这些文章中的内容大部分是我阅读源码时的一些记录和个人理解，以及 [rust-dev-guide](https://rustc-dev-guide.rust-lang.org/about-this-guide.html) 中对应的一些描述。本人水平有限，所以可能会有一些不准确甚至错误的地方，也欢迎大家提 PR/Issue/Discussion，或者下方扫码加群讨论。如果对 Rust 源码有自己分析和见解，同样欢迎提 PR 投稿。
 
 ---
 
 ## 电子书
 
-目标：学习分析 Rust 编译器（Rustc）、标准库、开源项目源代码。
-
-![cover](cover.jpg)
-
-- 代码仓库: [https://github.com/awesome-kusion/rust-code-book](https://github.com/awesome-kusion/rust-code-book)
-- 在线阅读: [https://awesome-kusion.github.io/rust-code-book](https://awesome-kusion.github.io/rust-code-book)
+- 在线阅读: [https://he1pa.github.io/rust-code-book](https://awesome-kusion.github.io/rust-code-book)
 
 ## 目录
 
@@ -65,9 +46,6 @@ KCLVM 是我们在 Kusion 这个项目中使用 Rust 开发的语言编译器，
   <!-- - [Cargo包管理](rust-tools/cargo/readme.md)
   - [Clippy](rust-tools/clippy/readme.md) -->
 
-- [Rust开源项目](open-source/readme.md)
-  - [KCLVM](open-source/KCLVM/readme.md) &#x2705;
-
 - [附录](appendix/readme.md)
 
 ---
@@ -75,6 +53,5 @@ KCLVM 是我们在 Kusion 这个项目中使用 Rust 开发的语言编译器，
 [![Star History Chart](https://api.star-history.com/svg?repos=awesome-kusion/rust-code-book&type=Date)](https://star-history.com/#awesome-kusion/rust-code-book&Date)
 
 欢迎通过以下方式联系我们:
-- Slack: https://join.slack.com/t/rustcodebook/shared_invite/zt-1htuqzkf9-45i6FO1L~ihwnmbGGh7QEw
 - Twitter: [He1pa](https://twitter.com/ZhengZh79945795)
-
+- Github: [He1pa](https://github.com/He1pa)
